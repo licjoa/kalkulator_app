@@ -16,6 +16,12 @@ class CalcKeyboard extends StatelessWidget {
               print('object');
             },
           ),
+          CalcButton(
+            text: '1',
+            pressedKey: () {
+              print('object');
+            },
+          ),
         ],
       ),
     );
